@@ -37,3 +37,55 @@ p.first {
     background-color:limegreen;
 }
 
+table, th, td{
+    border:2px solid black;
+    border-collapse:collapse;
+}
+
+td{
+    padding:10px;
+    text-align:center;
+}
+
+#Special li{
+    float:left;
+}
+
+#Special li:hover{
+    color:white;
+}
+
+#Special a:hover{
+    color:white;
+}
+
+#Special a{
+    text-decoration:none;
+    color:black;
+}
+
+#Special {
+    list-style-type: none;
+}
+
+#firstDiv{
+    background-color:limegreen;
+}
+
+.secondDiv{
+    background-color:gold;
+    border:3px solid black;
+}
+
+.secondDiv h3 {
+    text-align:center;
+    color:black;
+    background-color:gold;
+}
+
+.secondDiv p {
+    background-color:gray;
+    color:black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:none;
+}
