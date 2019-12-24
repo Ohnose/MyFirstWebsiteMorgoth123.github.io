@@ -4,6 +4,9 @@
         <title>
             OWO
         </title>
+        <meta name="description" content="test Website (first one)">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
         <style>
             body {background-color: lightblue}
             h1 {color:green}
@@ -14,7 +17,7 @@
         <h1 id="top">Hi, Welcome to my test Website</h1>
         <h3 title="Secret OwO">As you can see I have no idea what I am doing</h3>
         <h4 style="color:royalblue">But I can do this</h4>
-        <img src="Owo.png" width="500" height="100"></img>
+        <img src="Owo.png" style="max-width:100%;height:auto"></img>
         <h4>One day I hope I will have a cool website, and it will be linked below</h4>
         <br></br>
         <br></br>
@@ -172,7 +175,27 @@
     <h3>Trial 2</h3>
     <p>Wowzers Pt2 </p>
     </div>
-    <iframe src="index.html" name="iframe_a" style="height:400px; width:5800px"></iframe>
+    <iframe src="index.html" name="iframe_a" style="height:400px; width:1000px"></iframe>
+    <br>
     <a href="#top" target="iframe_a">Click Me (Make sure you scroll down in thing directly above)</a>
-    
+    <p id="OWO"> Haha you wont see this cause its changed </p>
+    <script>
+        document.getElementById("OWO").innerHTML = "OWO";
+    </script>
+    <hr> </hr>
+    <p id="specialText">Hi this text changes based on how big your bowser is haha</p>
+    <hr>
+    <form>
+        Enter: <input type="text" name="val"> <br>
+        Final: <input type="text" name="val"> <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <form>
+        <input type="radio" name="cool" value="what">What<br>
+        <input type="radio" name="cool" value="is">Is<br>
+        <input type="radio" name="cool" value="this">This<br>
+        <input type="submit" value="Submit">
+    </form>
+
 </html>
