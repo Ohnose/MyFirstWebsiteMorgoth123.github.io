@@ -197,5 +197,27 @@
         <input type="radio" name="cool" value="this">This<br>
         <input type="submit" value="Submit">
     </form>
+    <br>
+    <form>
+        <select name="options" size="2" multiple>
+            <option value="firstOp">first</option>
+            <option value="secondOp" selected="selected">second</option>
+            <option value="thirdOp">third</option>
+        </select>
+    </form>
+    <br>
+    <textarea name="random" rows="10" cols="10">
+        What is this even
+    </textarea>
+    <button type="button" onclick="alert('WOWO')">Click Me</button>
+    <br>
+    <p id="changer">What am i even</p>
+    <br>
+    <button type="button" onclick="changeInfo()">Haha</button>
+    <script>
+        function changeInfo(){
+            document.getElementById("changer").innerHTML = "What am i odd";
+        }
+    </script>
 
 </html>
